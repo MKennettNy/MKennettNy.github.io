@@ -1,0 +1,28 @@
+.footer {
+    background-color: grey;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
+
+    div {
+      padding: 10px 0;
+    }
+    
+    i {
+      font-size: 80px;
+    }
+
+    i:hover {
+      color: blue;
+    }
+    .footer-menu {
+      
+      li {
+        display: inline;
+        padding: 0 10px;
+    }
+  }
+}
+  
+  

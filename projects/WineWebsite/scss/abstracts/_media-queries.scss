@@ -1,0 +1,106 @@
+@media only screen and (max-width: 768px) {
+    .vineyardsinfo { 
+    
+        div {
+            h4 {
+            font-size: 30px;
+            }
+
+            p {
+                font-size: 13px;
+            }
+        }
+
+
+    }
+    
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-menu li {
+        display: inline;
+        padding-top: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .vineyardsinfo { 
+    
+        div {
+            h4 {
+            font-size: 20px;
+            }
+        }
+    }
+
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-menu li {
+        display: inline;
+        padding-top: 10px;
+        // font-size: 17px;
+    }
+
+    .title {
+        h3 {
+            font-size: 28px
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 850px) {
+    .vineyardsinfo { 
+    
+        div {
+            h4 {
+            font-size: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 521px) {
+    .vineyards {
+        margin: 0 0;
+        padding: 0 0;
+        font-size: 10px;
+    }
+    
+    .vineyardsinfo {
+        flex-direction: column;
+    }
+    
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-menu li {
+        display: block;
+        font-size: 17px;
+    }
+}
+
+
+@media only screen and (max-width: 847px) {
+    
+    .main-menu li {
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 623px) {
+
+  .main-menu li {
+        font-size: 17px;
+    }
+}

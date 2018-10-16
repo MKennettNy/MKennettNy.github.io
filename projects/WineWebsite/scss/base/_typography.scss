@@ -1,0 +1,67 @@
+.landing {
+    font-size: 26px;
+
+
+    .container {
+        color: $footer-header-color;
+        font-size: 25px;
+
+        .logo {
+            font-family: 'Caveat', cursive;
+        }
+
+        .main-menu {
+            
+            a {
+                font-family: $heading-font;
+            }
+        }
+
+        .title {
+            color: $footer-header-color;
+            text-align: center; 
+
+            h3 {
+                font-family: $heading-font;
+            }
+        }
+    }
+}
+
+.vineyards, .wine-list {
+
+    h3 {
+        font-family: $heading-font;
+        font-size: $heading-font-size
+    }
+
+    h4 {
+        font-family: $sub-heading-font;
+        font-size: $sub-heading-font-size
+        
+    }
+
+}
+
+.footer {
+    font-size: 22px;
+    color: $footer-header-color;
+    font-family: $footer-font;
+
+}
+
+a {
+    color: $footer-header-color;
+}
+
+a:hover{
+    color: $nav-hover;
+}
+
+h3, h4 {
+    text-align: center;
+}
+
+.wine-row1, .wine-row2 {
+    font-size: 18px
+}

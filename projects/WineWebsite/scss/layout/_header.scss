@@ -1,0 +1,59 @@
+.home {
+    background-image: url(/Website/Images/Home-page-Image-1.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  
+
+    .container {
+      padding-top: 10px;
+
+      .header {
+        padding: 15px 50px;
+        display: flex;
+        justify-content: space-between;
+      
+      .main-menu {
+        margin: 0;
+        padding: 0;
+
+        
+      }
+    }
+  }
+}
+
+.our-shop {
+  background-image: url(/Website/Images/our-shop-1.jpg);
+}
+
+.contact {
+  background-image: url(/Website/Images/contact-page-1.jpg);
+}
+
+.our-shop, .contact { 
+  background-size: cover;
+  background-position: center;
+  
+  .container {
+    padding-top: 10px;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+  padding-bottom: 500px;
+}
+
+li {
+  display: inline;
+  padding-right: 17px;
+}
+
+.title {
+  text-align: center;
+  padding-top: 400px;    
+}
+

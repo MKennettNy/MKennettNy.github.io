@@ -1,0 +1,79 @@
+
+
+.vineyards {
+  text-align: center;
+  // margin: 0 200px;
+  padding-top: 50px;
+  
+  h3 {
+    padding: 90px 0;
+    background-image: url(/Website/Images/wine&bottle.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+}
+
+.vineyardsinfo {
+  display: flex;
+  text-align: justify;
+
+  h4 {
+    text-align: center;
+    padding-bottom: 18px
+  }
+
+  div {
+    padding: 0 15px;
+    padding-top: 50px;
+  }
+
+  p {
+    padding-bottom: 20px
+  }
+
+  img {
+    padding-bottom: 80px;
+  }
+
+}
+
+.wine-list {
+    margin: 0 250px;
+
+
+  div {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+
+  
+
+    img {
+      width: 100px;
+      height: 300px; 
+      margin: 0 40px;
+    }
+  }
+}
+
+.wine-row1, .wine-row2  {
+  justify-content: center;
+  text-align: center;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  
+
+    img {
+      justify-content: center; 
+    }
+  } 
+}
+
+
+.wine-list1 {
+  display: flex
+}

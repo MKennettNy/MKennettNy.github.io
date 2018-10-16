@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../abstracts/mediaquerys.scss"
+    ],
+    "names": [],
+    "file": "mediaquerys.min.css"
+}

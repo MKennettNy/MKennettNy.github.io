@@ -1,0 +1,77 @@
+// CODE PEN //
+// https://codepen.io/sarath-ar/pen/dMKxxM
+
+
+
+button{
+  display: inline-block;
+  position: relative;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  margin: 20px 30px;
+  background: rgba(0,0,0,0.02);
+  font-family: $sub-heading-font;
+  padding: 25px 80px;
+}
+span {
+  display: block;
+  display: inline-block; 
+  
+}
+button::before, button::after{
+  content:"";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #fff;
+}
+
+span::before, span::after{
+  content:"";
+  width:2px;
+  height:0;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #fff;
+}
+button:hover::before, button:hover::after{
+  width: 100%;
+}
+button:hover span::before, button:hover span::after{
+  height: 100%;
+}
+
+.headerbutton::before, .headerbutton::after{
+  transition-delay: 0.2s;
+}
+.headerbutton span::before, .headerbutton span::after{
+  transition-delay: 0s;
+}
+.headerbutton::before{
+  right: 0;
+  top: 0;
+}
+.headerbutton::after{
+  left: 0;
+  bottom: 0;
+}
+.headerbutton span::before{
+  left: 0;
+  top: 0;
+}
+.headerbutton span::after{
+  right: 0;
+  bottom: 0;
+}
+.headerbutton:hover::before, .headerbutton:hover::after{
+  transition-delay: 0s;
+}
+.headerbutton:hover span::before, .headerbutton:hover span::after{
+  transition-delay: 0.2s;
+}
+
+// CODE PEN //
