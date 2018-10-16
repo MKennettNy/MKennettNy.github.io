@@ -10997,7 +10997,7 @@ button:hover span::before, button:hover span::after {
 
 .vineyards h3 {
   padding: 90px 0;
-  background-image: url(/Website/Images/wine&bottle.jpg);
+  background-image: url(/Images/wine&bottle.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -11105,7 +11105,7 @@ button:hover span::before, button:hover span::after {
 }
 
 .home {
-  background-image: url(/Website/Images/Home-page-Image-1.jpg);
+  background-image: url(/Images/Home-page-Image-1.jpg);
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -11131,11 +11131,11 @@ button:hover span::before, button:hover span::after {
 }
 
 .our-shop {
-  background-image: url(/Website/Images/our-shop-1.jpg);
+  background-image: url(/Images/our-shop-1.jpg);
 }
 
 .contact {
-  background-image: url(/Website/Images/contact-page-1.jpg);
+  background-image: url(/Images/contact-page-1.jpg);
 }
 
 .our-shop, .contact {
