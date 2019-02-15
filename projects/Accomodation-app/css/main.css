@@ -1,0 +1,245 @@
+body {
+    background-image: url(/images/christopher-jolly-616571-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#page1Head {
+    padding-top: 190px;
+    padding-bottom: 130px
+}
+
+.tooltip_templates { display: none; }
+
+p {
+    font-size: 15px;
+    text-align: center;
+}
+
+#choose-snacks{
+  padding-top: 90px;
+}
+
+#description {
+  font-size: 15px;
+  text-align: left;
+  text-align: justify;
+}
+
+strong {
+  font-size: 20px;
+  text-align: left;
+}
+
+.hp-social_proof-item__component {
+  font-size: 15px;
+}
+
+#logo {
+    height: 140px;
+    width: auto;
+    display: block;
+    margin: 0 auto;  
+}
+
+.backBtn {
+  height: 500px;
+  width: 25px;
+}
+
+#inline {
+  display: none;
+}
+
+#thumbnails1, #thumbnailsSub1, #thumbnailsSub2 {
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+
+.control {
+    width: 700px;
+}
+
+.is-danger {
+    width: 300px;
+}
+
+#thumbnails {
+  height: 200px;
+  width: 300px;
+}
+
+.category-list {
+  font-size: 30px;
+  padding: 20px;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 50px;
+  }
+
+  .container, .thumbnails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+div {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img, h3 {
+    padding:0 20px;
+}
+
+h3 {
+    font-size: 12px;
+}
+
+form {
+  width: 550px;
+  height: 450px;
+  margin: auto;
+  position: relative;
+}
+
+#price, #name{
+  text-align: left;
+  color: red;
+  padding:0 20px;
+}
+
+
+nav */
+
+  .main-nav li{
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  .main-nav a{
+    color: green;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  .main-nav a.active{
+    text-decoration: underline;
+  }
+  
+  /* screens */
+  .content .screen {
+    display: none;
+  }
+  .screen.active {
+    display: block;
+  }
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+#snack-list {
+  padding: 0;
+  margin: 0;
+}
+
+.headerbutton{
+  display: inline-block;
+  position: relative;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  margin: 20px 0px;
+  background: rgba(0,0,0,0.02);
+  padding: 15px 40px;
+}
+span {
+  display: block;
+  display: inline-block; 
+  
+}
+.bookBtn::before, button::after{
+  content:"";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #fff;
+}
+
+span::before, span::after{
+  content:"";
+  width:2px;
+  height:0;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #fff;
+}
+.bookBtn:hover::before, .bookBtn:hover::after{
+  width: 100%;
+}
+.bookBtn:hover span::before, .bookBtn:hover span::after{
+  height: 100%;
+}
+
+.bookBtn::before, .bookBtn::after{
+  transition-delay: 0.2s;
+}
+.bookBtn span::before, .bookBtn span::after{
+  transition-delay: 0s;
+}
+.bookBtn::before{
+  right: 0;
+  top: 0;
+}
+.bookBtn::after{
+  left: 0;
+  bottom: 0;
+}
+.bookBtn span::before{
+  left: 0;
+  top: 0;
+}
+.bookBtn span::after{
+  right: 0;
+  bottom: 0;
+}
+.bookBtn:hover::before, .bookBtn:hover::after{
+  transition-delay: 0s;
+}
+.bookBtn:hover span::before, .bookBtn:hover span::after{
+  transition-delay: 0.2s;
+}
+
+#breakfastImg {
+  height: 90px;
+  width: auto;
+}
+
+.breakfast {
+  display: flex;
+}
+
+.modalItems {
+  display: flex; 
+}

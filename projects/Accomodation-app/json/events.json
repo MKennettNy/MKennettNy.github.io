@@ -1,0 +1,12 @@
+{ 
+        "events": [
+        {
+            "eventId": 0,
+            "fullName": "Matthew Kennett-Ny",
+            "address": "36H Southampton Street, Christchurch",
+            "eventName": "Matt's Birthday",
+            "noOfAttendees": 12,
+            "snack": "Movenpick - Tiramisu"
+        }
+    ]
+}

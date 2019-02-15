@@ -1,0 +1,103 @@
+{
+    "snacks": [
+        {
+            "id": 0,
+            "thumbnails": "Movenpick-Tiramisu",
+            "name": "Movenpick - Tiramisu",
+            "price": "$8",
+            "categoryId": 0
+        },
+        {
+            "id": 1,
+            "thumbnails": "Movenpick-Swiss-Chocolate",
+            "name": "Movenpick - Swiss Chocolate",
+            "price": "$8",
+            "categoryId": 0
+        },
+        {
+            "id": 2,
+            "thumbnails": "Movenpick-Caramelita-Caramel",
+            "name": "Movenpick - Caramelita Caramel",
+            "price": "$8",
+            "categoryId": 0
+        },
+        {
+            "id": 3,
+            "thumbnails": "cadbury-caramel",
+            "name": "Cadbury - Dairy Milk Caramel",
+            "price": "$3.50",
+            "categoryId": 1
+        },
+        {
+            "id": 4,
+            "thumbnails": "cadbury-chocolate-bubly",
+            "name": "Cadbury - Chocolate Bubbly",
+            "price": "#3.50",
+            "categoryId": 1
+        },
+        {
+            "id": 5,
+            "thumbnails": "lays-classic",
+            "name": "Lays - Classic",
+            "price": "$2.60",
+            "categoryId": 2
+        },
+        {
+            "id": 6,
+            "thumbnails": "lays-limon",
+            "name": "Lays - Limon",
+            "price": "$2.60",
+            "categoryId": 2
+        },
+        {
+            "id": 7,
+            "thumbnails": "Licorice-Allsorts",
+            "name": "Licorice - Allsorts",
+            "price": "$4.30",
+            "categoryId": 3
+        },
+        {
+            "id": 8,
+            "thumbnails": "Licorice-Allsortsed",
+            "name": "Licorice - Allsortsed",
+            "price": "$4",
+            "categoryId": 3
+        },
+        {
+            "id": 9,
+            "thumbnails": "Licorice-Red",
+            "name": "Licorice - Red",
+            "price": "$3.80",
+            "categoryId": 3
+        },
+        {
+            "id": 10,
+            "thumbnails": "Popcorn-ArtisanCheddar",
+            "name": "Popcorn - Artisan Cheddar",
+            "price": "$3.80",
+            "categoryId": 4
+        },
+        {
+            "id": 11,
+            "thumbnails": "Popcorn-Dark&WhiteChocolteDrizzled",
+            "name": "Popcorn - Dark & White Chocolte Drizzled",
+            "price": "$3.80",
+            "categoryId": 4
+        },
+        {
+            "id": 12,
+            "thumbnails": "Popcorn-LightExtraVirginOliveOil",
+            "name": "Popcorn - Light Extra Virgin Olive Oil",
+            "price": "$3.80",
+            "categoryId": 4
+            
+        },
+        {
+            "id": 12,
+            "thumbnails": "Popcorn-Caramel&MilkChocolate",
+            "name": "Popcorn - Caramel & Milk Chocolate",
+            "price": "$3.80",
+            "categoryId": 4
+        }
+    ]
+ }

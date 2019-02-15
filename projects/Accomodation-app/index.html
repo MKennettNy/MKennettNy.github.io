@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Accomodation App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/node_modules/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/Modaal-master/dist/css/modaal.min.css" />
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="title">
+                <ul class="main-nav">
+                    <li>
+                        <a hidden data-screen="event-details" class="screen-link active" href="#">Event Details</a>
+                    </li>
+                    <li>
+                        <a hidden data-screen="choose-snacks" class="screen-link" href="#">Choose Snacks</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <div class='container content'>
+        <div id="event-details" class="screen active">
+            <header id="page1Head">
+                <img class="logo" src="/images/logo.png" alt="Room-Logo"/>
+                <p>If you've got the time, we've got the room</p>
+            </header>
+
+            <form id="search-form">
+                <div class="field">
+                    <p class="control has-icons-left">
+                        <input class="input is-medium" id="locationInput" type="text" placeholder="City">
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-city"></i>
+                        </span>
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control has-icons-left">
+                        <input class="input is-medium" id="daysInput" type="number" placeholder="No. Of Days">
+                        <span class="icon is-small is-left">
+                            <i class="far fa-calendar-alt"></i>
+                        </span>
+                    </p>
+                </div>
+                <button class="button is-danger searchBtn" type="submit" form="search-form" value="Submit">Search</button>
+            </form>
+        </div>
+        
+
+
+
+        <div id="choose-snacks" class="screen">
+            <header>
+                <div>
+                    <img id="backBtn" src="/images/chevron.gif"  alt="Back-Button">
+                    <img class="logo" src="/images/logo.png"  alt="Room-Logo"/>
+                </div>
+                <ul class="category-list"></ul>
+                <div class='snack-list'></div>
+            </header>
+        </div>
+    </div>
+        <div id="inline">
+            <div id="modalImages">
+                <img id="thumbnails1" src="#" alt="MainImg">
+                <img id="thumbnailsSub1" src="#" alt="SubImg1"/>
+                <img id="thumbnailsSub2" src="#" alt="SubImg2"/>
+            </div>
+
+            <strong id="title"></strong>
+            <div class="modalItems">
+                <p id="description"></p>
+                <img id="breakfastImg" src="/images/croissant_coffee_breakfast-512.png" alt="breakfastImg">
+                <p>Complimentry Breakfast Offered Between 7:30 - 10:30</p>
+            </div>
+            <button class="bookBtn"><span>Book Now</span></button>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="/Modaal-master/dist/js/modaal.min.js"></script>
+        <script src="/js/accomodation-app.js"></script>
+
+
+</body>
+
+</html>
